@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Dividir e Conquistar</title>
+</head>
+<body>
+    <header>
+        <h1>Visualização de Algoritmos de Dividir e Conquistar</h1>
+    </header>
+    <main>
+        <div class="algorithm-selection">
+            <label for="algorithm">Selecione o Algoritmo:</label>
+            <select id="algorithm">
+                <option value="karatsuba">Algoritmo de Karatsuba</option>
+                <option value="medians">Algoritmo da Mediana das Medianas</option>
+            </select>
+            <button id="visualize-button">Visualize</button>
+        </div>
+
+        <div id="visualization-container" class="visualization-container">
+
+        </div>
+    </main>
+    <script type="module" src="../static/js/script.js"></script>
+</body>
+</html>

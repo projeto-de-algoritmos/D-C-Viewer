@@ -1,5 +1,5 @@
 import { visualizeKaratsuba } from "./karatsuba.js";
-// import { visualizeMedianOfMedians } from "./medians.js";
+import { visualizeMedianOfMedians } from "./medians.js";
 
 const visualizeButton = document.getElementById('visualize-button');
 visualizeButton.addEventListener('click', visualizeAlgorithm);

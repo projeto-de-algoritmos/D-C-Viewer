@@ -1,45 +1,37 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Divide and Conquer Viewer
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: x<br>
+**Conteúdo da Disciplina**: Divide and Conquer<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 190058587  |  Matheus Raphael Soares de Oliveira |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Projeto web para auxiliar na visualização de alguns algoritmos de **Divide and Conquer**, como o algoritmo da **Multiplicação de Karatsuba** e o algoritmo da **Mediana das Medianas**. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+<img src="./assets/karatsubaPrompt.png" width="500">
+<img src="./assets/karatsubaResult.png" width="500">
+<img src="./assets/mediansPrompt.png" width="500">
+<img src="./assets/mediansResult.png" width="500">
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python / JavaScript <br>
+**Framework**: Flask para o pequeno backend <br>
+
+Deve ser instalado python3 e Flask na sua máquina para rodar o backend. Porém, sendo um backend bem simples, a troca desse pela tecnologia da sua escolha é trivial.
+
+Após instalado Flask e dentro do diretório que contém o arquivo *app.py*, rode o programa com:
+
+    flask run
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Entre no site pelo **localhost:5000** e escolha o algoritmo que deseja visualizar, depois apenas siga as instruções dadas pelos prompts.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+## Other
+BUG:
+- Karatsuba: 
+    - em algumas ocasiões o algoritmo produz a resposta errada, por causa de algum erro no processo de calcular o $z_1$ que ainda não consegui encontrar
